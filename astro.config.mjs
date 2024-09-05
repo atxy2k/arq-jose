@@ -8,4 +8,7 @@ export default defineConfig({
   outDir: 'docs',
   site: 'https://atxy2k.github.io',
   base: 'arq-jose',
+  build: {
+    assets: 'assets'
+  }
 });
